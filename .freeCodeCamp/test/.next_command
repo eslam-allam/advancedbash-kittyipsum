@@ -77,3 +77,7 @@ history -a
 cat < name.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo name
+cat
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
