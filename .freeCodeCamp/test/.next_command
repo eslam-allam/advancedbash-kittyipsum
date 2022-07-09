@@ -36,3 +36,6 @@ history -a
 echo $NAME
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo $NAME > stdout.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
