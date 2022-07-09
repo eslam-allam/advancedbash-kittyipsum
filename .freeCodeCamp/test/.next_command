@@ -3,3 +3,6 @@ history -a
 echo hello bash
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo hello bash > stdout.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
