@@ -18,3 +18,9 @@ history -a
 bad_command
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+bad_command > stdout.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+bad_command > stderr.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
