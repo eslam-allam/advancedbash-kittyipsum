@@ -118,3 +118,6 @@ history -a
 ./script.sh < name.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+./script.sh < name.txt 2> stderr.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
