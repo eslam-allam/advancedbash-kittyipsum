@@ -66,3 +66,5 @@ echo $NAME
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
 cat
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
