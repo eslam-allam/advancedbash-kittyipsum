@@ -81,3 +81,6 @@ echo name
 cat
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+touch script.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
