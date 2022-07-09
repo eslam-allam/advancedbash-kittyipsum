@@ -145,3 +145,6 @@ history -a
 wc -l kitty_ipsum_1.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+wc -w kitty_ipsum_1.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
