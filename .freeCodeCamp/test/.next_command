@@ -171,3 +171,15 @@ cat kitty_ipsum_1.txt
 wc
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+cat kitty_ipsum_1.txt < wc
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+wc kitty_ipsum_1.txt > cat
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+wc kitty_ipsum_1.txt < cat
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+wc < kitty_ipsum_1.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
