@@ -104,3 +104,7 @@ echo eslam
 ./script.sh 2> stderr.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo eslam
+./script.sh 2> stderr.txt > stdout.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
