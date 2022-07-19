@@ -341,3 +341,12 @@ history -a
 sed 's/free/f233/' name.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+sed 's/freecodecamp/f233c0d3C@mp/' name.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+sed 's/freeCodeCamp/f233C0d3C@mp/' name.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+sed 's/freecodecamp/f233C0d3C@mp/' name.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
