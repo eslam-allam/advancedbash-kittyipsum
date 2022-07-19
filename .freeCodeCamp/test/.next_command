@@ -363,3 +363,7 @@ history -a
 grep -n meow[a-z]* kitty_ipsum_1.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+grep -n meow[a-z]* kitty_ipsum_1.txt
+sed 's/[0-9]/1/'
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
