@@ -263,3 +263,6 @@ history -a
 wc -m < kitty_ipsum_1.txt >> kitty_info.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+grep 'meow' kitty_ipsum_1.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
