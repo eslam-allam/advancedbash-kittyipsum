@@ -220,3 +220,46 @@ history -a
 echo -e "\nNumber of characters:" >> kitty_info.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+man wc
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cat kitty_ipsum_1.txt
+wc -m >> kitty_info.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+man wc
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cat kitty_ipsum_1.txt
+wc -c >> kitty_info.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cat kitty_ipsum_1.txt -m < wc >> kitty_info.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+man wc
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+wc -m kitty_ipsum.txt < cat
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+wc -m kitty_ipsum_1.txt < cat
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cat kitty_ipsum_1.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cat kitty_ipsum_1.txt < wc
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cat kitty_ipsum_1.txt < wc
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+wc kitty_ipsum_1.txt < cat
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+wc -m < kitty_ipsum_1.txt >> kitty_info.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
