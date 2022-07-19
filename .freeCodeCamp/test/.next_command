@@ -360,3 +360,6 @@ cat name.txt
 sed 's/freecodecamp/f233C0d3C@mp/i'
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+grep -n meow[a-z]* kitty_ipsum_1.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
