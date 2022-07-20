@@ -491,3 +491,11 @@ history -a
 echo -e "\nNumber of lines:" >> kitty_info.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+cat kitty_ipsum_2.txt
+wc -l
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cat kitty_ipsum_2.txt
+wc -l >> kitty_info.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
