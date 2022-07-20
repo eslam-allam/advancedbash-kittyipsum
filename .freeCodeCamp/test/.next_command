@@ -535,3 +535,6 @@ cat kitty_ipsum_2.txt
 wc -m >> kitty_info.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+grep --color meow[a-z]* kitty_ipsum_2.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
