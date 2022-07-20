@@ -471,3 +471,7 @@ grep -n cat[a-z]* kitty_ipsum_1.txt
 sed -E 's/([0-9]+).*/\1/'
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+grep -n cat[a-z]* kitty_ipsum_1.txt
+sed -E 's/([0-9]+).*/\1/' >> kitty_info.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
