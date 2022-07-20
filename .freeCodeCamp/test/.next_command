@@ -690,3 +690,12 @@ history -a
 grep -E --color 'dog[a-z]*|woof[a-z]*'
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+man sed
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+help sed
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+info sed
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
