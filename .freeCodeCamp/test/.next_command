@@ -541,3 +541,36 @@ history -a
 echo -e "\nNumber of times meow or meowzer appears:" >> kitty_info.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+grep -l meow[a-z]*
+wc -l
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+grep -l meow[a-z]* kitty_ipsum_2.txt
+wc -l
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+grep -l meow[a-z]* kitty_ipsum_2.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+grep -n meow[a-z]* kitty_ipsum_2.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+grep -n meow[a-z]* kitty_ipsum_2.txt
+wc -l
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+grep -n meow[a-z]* kitty_ipsum_2.txt
+wc -l >> kitty_info.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+grep -o meow[a-z]* kitty_ipsum_2.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+grep -o meow[a-z]* kitty_ipsum_2.txt
+wc -l
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+grep -o meow[a-z]* kitty_ipsum_2.txt
+wc -l >> kitty_info.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
