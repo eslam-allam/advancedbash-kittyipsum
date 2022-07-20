@@ -592,3 +592,6 @@ grep -n meow[a-z]* kitty_ipsum_2.txt
 sed -E 's/([0-9]+).*/\1/' >> kitty_info.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+grep --color cat[a-z]* kitty_ipsum_2.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
