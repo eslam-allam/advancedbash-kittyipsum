@@ -740,3 +740,6 @@ history -a
 diff --color kitty_ipsum_1.txt doggy_ipsum_1.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+./translate.sh kitty_ipsum_2.txt > doggy_ipsum_2.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
