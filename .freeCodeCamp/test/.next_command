@@ -633,3 +633,6 @@ history -a
 touch translate.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+chmod +x translate.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
