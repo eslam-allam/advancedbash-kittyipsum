@@ -630,3 +630,6 @@ grep -n cat[a-z]* kitty_ipsum_2.txt
 sed -E 's/([0-9]+).*/\1/' >> kitty_info.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+touch translate.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
